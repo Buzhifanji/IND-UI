@@ -1,0 +1,22 @@
+{
+  "name": "@ind/spin",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "ind-ui"
+  ],
+  "author": "buzhifanji",
+  "bugs": {
+    "url": "https://github.com/Buzhifanji/IND-UI/issues"
+  }
+}
