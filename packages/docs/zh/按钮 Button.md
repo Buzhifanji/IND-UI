@@ -18,6 +18,14 @@
 
 @[code html](../components/button/size.vue)
 
+### disabled
+
+按钮添加 `disabled` 属性、或者 `disabled` 为 true 时，按钮不可点击
+
+<button-disabled />
+
+@[code html](../components/button/disabled.vue)
+
 ### API
 
 | 属性名    | 类型                                              | 默认值  | 说明    | 版本 |

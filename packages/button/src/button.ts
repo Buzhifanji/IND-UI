@@ -44,8 +44,19 @@ export class IButton extends LitElement {
   /** 是否为disabled */
   @property({ type: Boolean, reflect: true }) disabled = false;
 
+  /** 是否为 loading 效果*/
+  @property({ type: Boolean, reflect: true }) loading = false;
+
   /** 按钮的尺寸大小 */
   @property({ reflect: true }) size: "small" | "medium" | "large" = "medium";
+
+  private onClick(event: MouseEvent) {
+    if (this.disabled || this.loading) {
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
+  }
 
   protected render() {
     const classes = {
@@ -73,6 +84,7 @@ export class IButton extends LitElement {
         class=${classMap(classes)}
         type=${ifDefined(isLink ? undefined : this.type)}
         role=${ifDefined(isLink ? undefined : "button")}
+        @click=${this.onClick}
       >
         <span part="prefix" class="ind-btn_prefix">
           <slot name="prefix"></slot>

@@ -134,4 +134,10 @@ export default css`
   .ind-btn-has-label.ind-btn-large .ind-btn_label {
     padding: 0 var(--i-spacing-large, 20px);
   }
+
+  /** disabled */
+  .ind-btn-disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
 `;
