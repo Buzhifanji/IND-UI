@@ -140,4 +140,30 @@ export default css`
     cursor: not-allowed;
     opacity: 0.6;
   }
+
+  /** ghost */
+  .ind-btn-ghost {
+    background: none;
+    border: solid 1px;
+  }
+  .ind-btn-ghost.ind-btn-default {
+    color: var(--i-color-ghost, #333);
+    border-color: var(--sl-color-ghost-border, rgba(0, 0, 0, 0.2));
+  }
+  .ind-btn-ghost.ind-btn-primary {
+    color: var(--i-color-primary, #6777ef);
+    border-color: var(--i-border-color-primary, #6777ef);
+  }
+  .ind-btn-ghost.ind-btn-success {
+    color: var(--i-color-success, #63ed7a);
+    border-color: var(--i-border-color-success, #63ed7a);
+  }
+  .ind-btn-ghost.ind-btn-warning {
+    color: var(--i-color-warning, #ffc107);
+    border-color: var(--i-border-color-warning, #ffc107);
+  }
+  .ind-btn-ghost.ind-btn-danger {
+    color: var(--i-color-danger, #e91e63);
+    border-color: var(--i-border-color-danger, #e91e63);
+  }
 `;
