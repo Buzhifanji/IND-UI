@@ -26,8 +26,21 @@
 
 @[code html](../components/button/disabled.vue)
 
+### ghost
+
+按钮添加 `ghost` 属性，背景为透明色
+
+<button-ghost />
+
+@[code html](../components/button/ghost.vue)
+
+
+
 ### API
 
-| 属性名    | 类型                                              | 默认值  | 说明    | 版本 |
-| -------- | -----------------------------------------------   | ------  | ------ | ---- |
-| variant  | default、primary、success、warning、danger、text   | default | -      |      |
+| 属性名   | 类型                                             | 默认值    | 说明 | 版本 |
+|----------|--------------------------------------------------|-----------|------|------|
+| variant  | `default`、`primary`、`success`、`warning`、`danger` | `default` | -    |      |
+| size     | `small`、`medium`、`large `                        | `medium`  | -    |      |
+| disabled | `boolean`                                        | `false`   | -    |      |
+| ghost    | `boolean`                                        | `false`   | -    |      |
