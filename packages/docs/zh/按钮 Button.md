@@ -18,7 +18,7 @@
 
 @[code html](../components/button/size.vue)
 
-### disabled
+#### disabled
 
 按钮添加 `disabled` 属性、或者 `disabled` 为 true 时，按钮不可点击
 
@@ -26,7 +26,7 @@
 
 @[code html](../components/button/disabled.vue)
 
-### ghost
+#### ghost
 
 按钮添加 `ghost` 属性，背景为透明色
 
