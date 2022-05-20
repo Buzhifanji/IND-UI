@@ -1,0 +1,55 @@
+{
+  "name": "ind-ui",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "play": "pnpm run -r play",
+    "build": "vite build",
+    "test": "web-test-runner",
+    "docs:dev": "pnpm run -r docs:dev",
+    "docs:build": "vuepress build docs",
+    "docs-dev": "pnpm run -r docs-dev"
+  },
+  "dependencies": {
+    "@ind/button": "workspace:^0.1.0",
+    "@ind/controllers": "workspace:next",
+    "@ind/main": "workspace:^0.1.0",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-plugin": "^7.6.0",
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@open-wc/eslint-config": "^4.3.0",
+    "@open-wc/testing": "next",
+    "@types/mocha": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "@web/dev-server": "^0.1.28",
+    "@web/dev-server-esbuild": "^0.3.0",
+    "@web/dev-server-legacy": "^1.0.0",
+    "@web/test-runner": "next",
+    "@web/test-runner-playwright": "^0.8.8",
+    "add": "^2.0.6",
+    "concurrently": "^5.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.4.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2",
+    "vite": "^2.9.7",
+    "vite-dts": "^1.0.4",
+    "vite-plugin-dts": "^1.1.1",
+    "vue": "^3.2.33"
+  }
+}

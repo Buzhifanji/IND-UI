@@ -1,0 +1,19 @@
+{
+  "name": "@ind/button",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.js",
+  "types": "dist/button/button.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "vite build"
+  }
+}

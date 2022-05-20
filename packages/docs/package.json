@@ -1,0 +1,21 @@
+{
+  "name": "@ind/docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev ."
+  },
+  "dependencies": {
+    "@ind/main": "workspace:*"
+  },
+  "devDependencies": {
+    "@vuepress/cli": "2.0.0-beta.45",
+    "@vuepress/client": "^2.0.0-beta.45",
+    "@vuepress/core": "2.0.0-beta.45",
+    "@vuepress/plugin-back-to-top": "2.0.0-beta.45",
+    "@vuepress/plugin-nprogress": "2.0.0-beta.45",
+    "@vuepress/plugin-register-components": "2.0.0-beta.45",
+    "@vuepress/theme-default": "2.0.0-beta.45",
+    "vuepress": "^2.0.0-beta.45"
+  }
+}

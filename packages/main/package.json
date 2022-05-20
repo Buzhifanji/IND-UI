@@ -1,0 +1,21 @@
+{
+  "name": "@ind/main",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@ind/button": "workspace:^0.1.0"
+  }
+}
