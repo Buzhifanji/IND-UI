@@ -166,4 +166,16 @@ export default css`
     color: var(--i-color-danger, #e91e63);
     border-color: var(--i-border-color-danger, #e91e63);
   }
+
+  /** loading */
+  .ind-btn-loading {
+    position: relative;
+    cursor: wait;
+  }
+
+  .ind-btn-loading .ind-btn_prefix,
+  .ind-btn-loading .ind-btn_label,
+  .ind-btn-loading .ind-btn_suffix {
+    visibility: hidden;
+  }
 `;
