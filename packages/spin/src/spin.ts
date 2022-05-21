@@ -1,5 +1,5 @@
 import { LitElement } from "lit";
-import { customElement, property } from "lit/decorators.js";
+import { customElement } from "lit/decorators.js";
 import { html } from "lit/static-html.js";
 import styles from "./spin.css";
 
@@ -10,14 +10,11 @@ import styles from "./spin.css";
 export class ISpin extends LitElement {
   static styles = styles;
 
-  /** */
-  @property() example: string = "";
-
   protected render() {
     return html`
-      <span>
-        <slot></slot>
-      </span>
+      <svg part="base" class="int-spin" role="status">
+        <circle class="int-spin_main"></circle>
+      </svg>
     `;
   }
 }
