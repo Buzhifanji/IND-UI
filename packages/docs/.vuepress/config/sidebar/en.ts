@@ -1,6 +1,10 @@
 export const sidebarEn = [
   {
-    text: "components",
-    link: "/en/button.md",
+    text: "Button",
+    link: "/components/button.md",
+  },
+  {
+    text: "Spin",
+    link: "/components/spin.md",
   },
 ];

@@ -5,7 +5,7 @@ import registerComponentsPlugin from "@vuepress/plugin-register-components";
 import path from "path";
 import { defaultTheme } from "vuepress";
 import { navbarEn, navbarZh } from "./config/navbar";
-import { sidebarZh } from "./config/sidebar";
+import { sidebarEn, sidebarZh } from "./config/sidebar";
 
 export default defineUserConfig({
   title: "IND-UI",
@@ -30,6 +30,7 @@ export default defineUserConfig({
       },
       "/": {
         navbar: navbarEn,
+        sidebar: sidebarEn,
       },
     },
   }),
