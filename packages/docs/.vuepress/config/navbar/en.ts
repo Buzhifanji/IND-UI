@@ -1,6 +1,6 @@
 export const navbarEn = [
   {
     text: "components",
-    link: "/en/button.md",
+    link: "/components/button.md",
   },
 ];

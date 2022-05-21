@@ -8,4 +8,4 @@ The button's `variant` attribute, there are `default`、`primary`、`success`、
 
 <button-basic />
 
-@[code html](../components/button/basic.vue)
+@[code html](../demos/button/basic.vue)

@@ -1,4 +1,4 @@
-# Button 按钮
+# 按钮 Button 
 
 ### 代码演示
 
@@ -8,7 +8,7 @@
 
 <button-basic />
 
-@[code html](../components/button/basic.vue)
+@[code html](../../demos/button/basic.vue)
 
 #### size
 
@@ -16,7 +16,7 @@
 
 <button-size />
 
-@[code html](../components/button/size.vue)
+@[code html](../../demos/button/size.vue)
 
 #### disabled
 
@@ -24,7 +24,7 @@
 
 <button-disabled />
 
-@[code html](../components/button/disabled.vue)
+@[code html](../../demos/button/disabled.vue)
 
 #### ghost
 
@@ -32,7 +32,7 @@
 
 <button-ghost />
 
-@[code html](../components/button/ghost.vue)
+@[code html](../../demos/button/ghost.vue)
 
 
 
