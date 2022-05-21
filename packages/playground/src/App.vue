@@ -11,8 +11,11 @@ const pages = router
 </script>
 
 <template>
-    <header>
+  <header>
     <h1>🦄🦄🦄 IND-UI playground</h1>
+  </header>
+  <main>
+    <section class="left">
     <nav>
       <template v-for="(page, i) in pages" :key="page.name">
         <router-link :to="page" v-slot="{ route }">{{
@@ -21,19 +24,15 @@ const pages = router
         <template v-if="i < pages.length - 1"> · </template>
       </template>
     </nav>
-  </header>
-
-  <section>
+  </section>
+  <section class="right">
+      <section class="content">
     <router-view />
   </section>
 
-  <footer>
-    <p>
-      ©2022 Buzhifanji 
-      <br />
-      <!-- <a :href="sourceCodeLink">Source Code</a> -->
-    </p>
-  </footer>
+
+  </section>
+  </main>
 </template>
 
 <style>
@@ -43,9 +42,30 @@ const pages = router
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+main {
+  display: flex;
+  height: 100%;
+}
+.left {
+  width: 50%;
+}
+.right {
+  flex: 1;
 }
 nav {
   padding: 20px 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+nav a {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: right;
+
+}
+.content {
+  height: 840px;
 }
 </style>
