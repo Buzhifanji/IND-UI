@@ -12,8 +12,5 @@
   "files": [
     "dist",
     "types"
-  ],
-  "scripts": {
-    "build": "vite build"
-  }
+  ]
 }

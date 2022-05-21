@@ -7,10 +7,7 @@ import { html, literal } from "lit/static-html.js";
 import styles from "./button.css";
 
 /**
- * An example element.
  *
- * @slot - This element has a slot
- * @csspart button - The button
  */
 @customElement("i-button")
 export class IButton extends LitElement {
@@ -72,6 +69,7 @@ export class IButton extends LitElement {
       "ind-btn-disabled": this.disabled,
       "ind-btn-standard": !this.ghost,
       "ind-btn-ghost": this.ghost,
+      "ind-btn-loading": this.loading,
       "ind-btn-has-label": this.hasSlotController.has("[default]"),
       "ind-btn-has-prefix": this.hasSlotController.has("prefix"),
       "ind-btn-has-suffix": this.hasSlotController.has("suffix"),
