@@ -1,4 +1,5 @@
 import { HasSlotController } from "@ind/controllers";
+import "@ind/spin";
 import { LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { classMap } from "lit/directives/class-map.js";
@@ -94,6 +95,7 @@ export class IButton extends LitElement {
         <span part="suffix" class="ind-btn_suffix">
           <slot name="suffix"></slot>
         </span>
+        ${this.loading ? html`<i-spin></i-spin>` : ""}
       </${tag}>
     `;
   }

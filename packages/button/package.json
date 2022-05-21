@@ -12,5 +12,8 @@
   "files": [
     "dist",
     "types"
-  ]
+  ],
+  "dependencies": {
+    "@ind/spin": "workspace:^0.1.0"
+  }
 }

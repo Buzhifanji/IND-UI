@@ -178,4 +178,13 @@ export default css`
   .ind-btn-loading .ind-btn_suffix {
     visibility: hidden;
   }
+  .ind-btn-loading i-spin {
+    --spin-color: currentColor;
+    position: absolute;
+    font-size: 1em;
+    height: 1em;
+    width: 1em;
+    top: calc(50% - 0.5em);
+    left: calc(50% - 0.5em);
+  }
 `;
