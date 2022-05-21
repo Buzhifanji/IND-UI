@@ -34,6 +34,14 @@
 
 @[code html](../../demos/button/ghost.vue)
 
+#### loading
+
+按钮添加 `loading` 属性、或者 `loading` 为 true 时，按钮为加载中的效果
+
+<button-loading/>
+
+@[code html](../../demos/button/loading.vue)
+
 
 
 ### API
@@ -44,3 +52,4 @@
 | size     | `small`、`medium`、`large `                        | `medium`  | -    |      |
 | disabled | `boolean`                                        | `false`   | -    |      |
 | ghost    | `boolean`                                        | `false`   | -    |      |
+| loading  | `boolean`                                        | `false`   | -    |      |
