@@ -45,3 +45,17 @@
 @[code html](../../demos/spin/speed.vue)
 
 ### API
+
+#### CSS Custom Properties
+
+| 属性名         | 默认值    | 说明        | 版本 |
+|----------------|-----------|-----------|------|
+| `--spin-width` | `2px`     | Spin 的宽度 |      |
+| `--spin-color` | `#6777ef` | Spin 的颜色 |      |
+| `--spin-speed` | `2s`      | Spin 的速度 |      |
+
+#### CSS Parts
+
+| 属性名 | 说明                | 版本 |
+|--------|-------------------|------|
+| `base` | 组件内部的 svg 元素 |      |
