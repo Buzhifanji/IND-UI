@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@ind/button": "workspace:^0.1.0",
+    "@ind/icon": "workspace:^0.1.0",
     "@ind/spin": "workspace:^0.1.0"
   }
 }
