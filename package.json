@@ -20,8 +20,9 @@
     "plop": "plop --plopfile scripts/plop/plopfile.mjs"
   },
   "dependencies": {
-    "@ind/button": "workspace:^0.1.0",
     "@ind/controllers": "workspace:next",
+    "@ind/decorators": "workspace:*",
+    "@ind/utils": "workspace:*",
     "@ind/main": "workspace:^0.1.0",
     "lit": "^2.0.2"
   },
