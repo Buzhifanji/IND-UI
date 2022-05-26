@@ -1,0 +1,17 @@
+{
+  "name": "@ind/decorators",
+  "private": true,
+  "version": "0.1.0",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "vite build"
+  }
+}
