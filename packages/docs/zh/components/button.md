@@ -42,6 +42,14 @@
 
 @[code html](../../demos/button/loading.vue)
 
+#### icon
+
+按钮添加 `loading` 属性、或者 `loading` 为 true 时，按钮为加载中的效果
+
+<button-icon/>
+
+@[code html](../../demos/button/icon.vue)
+
 
 
 ### API
